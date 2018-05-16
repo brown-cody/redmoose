@@ -1,0 +1,185 @@
+/*  COLOR SCHEME
+ *  Red:    #8b0000
+ *  Cream:  #faebd7 rgb(250,235,215)
+ *  Gray:   #626363 rgb(98,99,99)*/
+
+
+.indImage {
+    display:block;
+    width:100%;
+    max-width:500px;
+    margin:auto;
+    
+}
+
+.columns {
+    height:20em;
+    
+}
+
+.columnText {
+    position:static;
+    background:none;
+    max-width: 500px;
+    margin:auto;
+}
+
+.columnText p, .columnText h3, .columnText h4 {
+    color:#faebd7;
+}
+
+.columnText p {
+    padding-bottom: 0;
+    font-weight:normal;
+    
+}
+
+.columnText h3 {
+    padding-top: 0;
+}
+
+.addToCart {
+    padding:1em;
+}
+
+.ui-accordion {
+    padding:0 1em 0 1em;
+    width:calc(100% - 2em);
+    font-family: "Trebuchet MS", "Arial", sans-serif;
+}
+
+.ui-accordion-header {
+    background:#626363;
+    text-align: left;
+}
+
+.ui-accordion-content {
+    background-color:#faebd7;
+}
+
+.accText p {
+    color:#626363;
+    text-align: left;
+}
+
+
+
+.nutFacts {
+    border: 3px solid black;
+    text-align: left;
+    background:white;
+    margin:auto;
+    font-size:.65em;
+    width:100%;
+    border-collapse: collapse;
+    font-family: "Arial", sans-serif;
+}
+
+td {
+    padding:.25em .5em .25em .5em;
+}
+
+.tabCenter {
+    text-align: center;
+    padding: .5em;
+}
+
+.thickBor {
+    border-bottom: 3px solid black;
+}
+
+.tabItem {
+    border-bottom: 1px solid lightgray;
+}
+
+td:nth-child(2) {
+    text-align: right;
+}
+
+.heavy {
+    font-weight: bold;
+}
+
+
+
+.allergy {
+    font-size:.85em;
+}
+
+input[type=number] {
+    width:2em;
+    height:1em;
+    color:#626363;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+input[type=submit] {
+    background:none;
+    color:white;
+    font-size:1.3em;
+    font-weight:bold;
+    padding:.25em .5em;
+    box-sizing:border-box;
+    border: solid white;
+    margin-left: .25em;
+}
+
+input[type=submit]:hover {
+    border: solid rgba(255,255,255,.5);
+}
+
+.addToCart p {
+    color:#faebd7;
+    font-weight:normal;
+    margin-bottom: 0;
+}
+
+.price h3 {
+    color:#faebd7;
+}
+
+.tabTitle {
+    font-size: 1.5em;
+}
+
+@media only screen and (min-width:385px) {
+    
+    .nutFacts {
+        font-size:.9em;
+    }
+    
+ 
+}
+
+/*phone landscape*/
+@media only screen and (min-width:480px)   {
+
+
+    
+    .tripleColumn, .doubleColumn {
+        width:100%;
+    }
+    
+}
+
+/*tablet*/
+@media only screen and (min-width:750px)   {
+
+    .tripleColumn, .doubleColumn {
+        width:50%;
+    }
+    
+    .price h3 {
+        padding-top: 0;
+    }
+    
+
+    
+}
+
+/*pc*/
+@media only screen and (min-width:960px)    {
+
+}

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Red Moose Cookie Co. - Reviews</title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="author" content="Cody Brown">
+        <meta name="description" content="Reviews for the Red Moose Cookie Company from Yelp, TripAdvisor, and Google.">
+        <meta name="keywords" content="reviews, yelp, google, trip advisor, red moose, cookie, cookies, cambria, cayucos, morro bay, san simeon, san luis obispo">
+        
+        <!-- fix mobile sizing-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Import normalize CSS -->
+        <link type="text/css" rel="stylesheet" href="../normalize.css">
+        
+        <!-- Import main CSS -->
+        <link type="text/css" rel="stylesheet" href="../style.css">
+        <link type="text/css" rel="stylesheet" href="reviewStyle.css">
+        <link type="text/css" rel="stylesheet" href="lightbox.css">
+        
+        <!-- import fonts from Google fonts -->
+        <!-- CSS validator doesn't like the "|" operator in the address to add more than one font in one tag, google recommends this method. It works, just doesn't validate -->
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+        
+        <!-- Add favicon to Browser tab -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        
+        <!-- Add icons for mobile devices that add site to home screen -->
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/152x152.png" rel="apple-touch-icon" sizes="152x152">
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/180x180.png" rel="apple-touch-icon" sizes="180x180">
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/192x192.png" rel="icon" sizes="192x192">
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/128x128.png" rel="icon" sizes="128x128">
+        
+        <!--hamburger manu changes to X-->
+        <script type="text/javascript">
+            function hamburgerMenu() {
+                var image = document.getElementById("menuPic").src;
+                
+                if (image == "http://redmoose.pickinio.com/images/burger.png") {
+                    document.getElementById("menuPic").src = "http://redmoose.pickinio.com/images/x.png";
+                } else {
+                    document.getElementById("menuPic").src = "http://redmoose.pickinio.com/images/burger.png";
+                }
+            }
+            
+        </script>
+        
+        <!--Modernizr-->
+        <script src="../javascript/modernizr-2.8.3.min.js"></script>
+       
+    </head>
+    <body>
+        <div class="divContain">
+            
+            <header>
+                <div id="title">
+                    <a href="http://redmoose.pickinio.com">
+                        <img class="logo" src="../images/redmooselogo.png" alt="Red Moose Logo">
+                    </a>
+                    <h1>Red Moose<span id="cookieCo"> Cookie Co.</span></h1>
+                
+                    <nav id="mainNav">
+                        
+                        <input id="box" type="checkbox" name="menu" onclick="hamburgerMenu()">
+                        
+                        
+                        
+                        <ul class="navList">
+                            <li class="navItem" ><a href="../">Home</a></li>
+                            <li class="navItem" ><a href="../products/">Products</a></li>
+                            <li class="navItem selected" ><a href="../reviews/">Reviews</a></li>
+                            <li class="navItem" ><a href="../directions/">Directions</a></li>
+                            <li class="navItem" ><a href="../about/">About Us</a></li>
+                        </ul>
+                                                
+                        <label for="box">
+                            
+                            <img id="menuPic" class="burger" src="http://redmoose.pickinio.com/images/burger.png" alt="Menu">
+                            
+                        </label>
+                        
+                        
+                        
+                        
+                    </nav>
+                    
+                    
+                    
+                </div>
+                <div class="shade"></div>
+                <div class="featureSection">
+                    <div class="featurePosition">
+                        <!-- for feature video in place of image
+                            <video autoplay loop muted id="featuredItem">
+                            <source src="images/movie.mp4" type="video/mp4">
+                        </video>
+                        -->
+                        <img class="featuredItem" src="../images/featured/featuredButter.jpg" alt="Butter">
+                        
+                    </div>
+                    <h2 class="featuredH">"Best Cookies Period"</h2>
+                </div>
+                
+            </header>
+
+            <main class="clear">
+                
+                
+                <section class="content">
+
+                    <h2 class="category">Customer Reviews</h2>
+                    
+                    <h3 class="headerTitle">Review Red Moose and get featured on our website!</h3>
+                    <div class="reviewLinks">
+                        <div class="logoContain">
+                            <a href="https://goo.gl/maps/3q5v8LmhuYy" target="_blank">
+                                <img src="../images/logos/google-logo.png" alt="Google" class="logoLink">
+                            </a>
+                        </div>
+                        <div class="logoContain">   
+                            <a href="https://www.yelp.com/biz/red-moose-cookie-co-cambria" target="_blank">
+                                <img src="../images/logos/yelp-logo.png" alt="Yelp" class="logoLink">
+                            </a>
+                        </div>
+                        <div class="logoContain">   
+                            <a href="https://www.tripadvisor.com/Attraction_Review-g32148-d3820445-Reviews-Red_Moose_Cookie_Company-Cambria_San_Luis_Obispo_County_California.html" target="_blank">
+                                <img src="../images/logos/trip-advisor-logo.png" alt="TripAdvisor" class="logoLink">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="leftColumn">           
+                
+                        <div class="review1">
+                            <h3 class="name">Barbara S.</h3>
+                            <h4 class="locale">Mission Viejo, CA</h4>
+                            
+                            <p class="reviewText">"You must all drive out of your way to find this cookie location. It isn't always open but if it is, go to tin city and find them. Delicious cookies and incredible owner."</p>
+                            <div class="date-logo">
+                                <a href="https://www.yelp.com/biz/red-moose-cookie-co-cambria" target="_blank">
+                                    <img src="../images/logos/yelp-logo.png" alt="Yelp" class="reviewLogo">
+                                </a>
+                                <p class="reviewDate">November 2016</p>
+                            </div>
+                        </div>
+
+                        <div class="review1">
+                            <h3 class="name">FroSays</h3>
+                            <h4 class="locale">Atascadero, CA</h4>
+                            <h4 class="reviewTitle">Big and Chewy</h4>
+                            <a href="../images/reviews/frosays.jpg" data-lightbox="review1">
+                                <img src="../images/reviews/frosays.jpg" alt="Store interior" class="reviewImg">
+                            </a>
+                            <p class="reviewText">"Amazing flavors! From Lemon cookies to the every popular Snickerdoodle. Be sure to get there early. They bake what they bake and thats it for the day. My favorite are the Lemon Cookies not overpowering great flavor and chewy. Yum Yum Yum. Be sure to bring the milk as they do not sell it there."</p>
+                            <div class="date-logo">
+                                <a href="https://www.tripadvisor.com/Attraction_Review-g32148-d3820445-Reviews-Red_Moose_Cookie_Company-Cambria_San_Luis_Obispo_County_California.html" target="_blank">
+                                    <img src="../images/logos/trip-advisor-logo.png" alt="TripAdvisor" class="reviewLogo">
+                                </a>
+                                <p class="reviewDate">July 2014</p>
+                            </div>
+                        </div>
+                        
+                        <div class="review1">
+                            <h3 class="name">DuckMagee</h3>
+                            <h4 class="locale">Eugene, OR</h4>
+                            <h4 class="reviewTitle">Best Cookies Period</h4>
+                            
+                            <p class="reviewText">"We come to Cambria every Memorial Day weekend and we MUST stick up on Red Moose cookies!! Do not miss this place if you are in the area. Best cookies we have had!!"</p>
+                            <div class="date-logo">
+                                <a href="https://www.tripadvisor.com/Attraction_Review-g32148-d3820445-Reviews-Red_Moose_Cookie_Company-Cambria_San_Luis_Obispo_County_California.html" target="_blank">
+                                    <img src="../images/logos/trip-advisor-logo.png" alt="TripAdvisor" class="reviewLogo">
+                                </a>
+                                <p class="reviewDate">June 2016</p>
+                            </div>
+                        </div>
+                        
+                        <div class="review1">
+                            <h3 class="name">Justin J.</h3>
+                            <h4 class="locale">Spring Valley, CA</h4>
+                            
+                            <a href="../images/reviews/justinj.jpg" data-lightbox="review2">
+                                <img src="../images/reviews/justinj.jpg" alt="Life size moose" class="reviewImg">
+                            </a>
+                            <p class="reviewText">"Red Moose Cookies are a guaranteed stop for me on every layover in Cambria.<br><br>Store is located in a storage unit just on the outskirts of town. Hard to pay the lease on nicer digs while slangin' cookies I imagine.<br><br>Staff is always pleasant and helpful. I will be back as the fat kid inside continues to rage on."</p>
+                            <div class="date-logo">
+                                <a href="https://www.yelp.com/biz/red-moose-cookie-co-cambria" target="_blank">
+                                    <img src="../images/logos/yelp-logo.png" alt="Yelp" class="reviewLogo">
+                                </a>
+                                <p class="reviewDate">August 2016</p>
+                            </div>
+                        </div>
+                        
+                        <div class="review1">
+                            <h3 class="name">Linda M.</h3>
+                            <h4 class="locale">Bakersfield, CA</h4>
+                            
+                            
+                            <p class="reviewText">"Even with GPS we had a little bit of a difficult time finding the place. But we are so happy we persisted! We bought 3 bags of the most amazing cookies Ive ever had. Peanut butter,chocolate chip & orange vanilla. We wish we wouldve bought more!"</p>
+                            <div class="date-logo">
+                                <a href="https://www.tripadvisor.com/Attraction_Review-g32148-d3820445-Reviews-Red_Moose_Cookie_Company-Cambria_San_Luis_Obispo_County_California.html" target="_blank">
+                                    <img src="../images/logos/trip-advisor-logo.png" alt="TripAdvisor" class="reviewLogo">
+                                </a>
+                                <p class="reviewDate">February 2016</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="rightColumn">
+                        
+
+                        <div class="review1">
+                            <h3 class="name">David John</h3>
+                            <h4 class="locale">United Kingdom</h4>
+                            
+                            
+                            <p class="reviewText">"We found this place when we got lost and happened to find it. Glad we did, going to try and order some back to the UK."</p>
+                            <div class="date-logo">
+                                <a href="https://www.google.com/maps/place/Red+Moose+Cookie+Company/@35.5634717,-121.0812812,17z/data=!4m5!3m4!1s0x0:0xda2b676f5f544db6!8m2!3d35.5634717!4d-121.0790931" target="_blank">
+                                    <img src="../images/logos/google-logo.png" alt="Google" class="reviewLogo">
+                                </a>
+                                <p class="reviewDate">June 2016</p>
+                            </div>
+                        </div>
+
+                        <div class="review1">
+                            <h3 class="name">Tony K.</h3>
+                            <h4 class="locale">Bakersfield, CA</h4>
+                            
+                            <a href="../images/reviews/tonyk.jpg" data-lightbox="review3">    
+                                <img src="../images/reviews/tonyk.jpg" alt="Tony and Roger" class="reviewImg">
+                            </a>
+                            <p class="reviewText">"We were wine tasting and one of our servers mentioned Red Moose Cookie Company. She recommended us to go there since we were staying in Cambria... we decided to check it out before heading back home and it was absolutely awesome!<br><br>The Red Moose Cookie Company is located in an unconventional space right in the middle of what's seems to be warehouse/storage space, in the middle a an industrial zone.<br><br>It's a very small place filled with some of the best cookies.<br><br>Once the owner realized this was our first time, he began to go into the history of this place- AMAZING STORY! Let's just say, Shark Tank approaches him and he turned them down. His reasoning was, 'why should I have them invest when I own all the recipes, the company is all paid off, and I'm about to take this company and franchise it with a waiting list of people to partner.'<br><br>Good enough for me!"</p>
+                            <div class="date-logo">
+                                <a href="https://www.yelp.com/biz/red-moose-cookie-co-cambria" target="_blank">
+                                    <img src="../images/logos/yelp-logo.png" alt="Yelp" class="reviewLogo">
+                                </a>
+                                <p class="reviewDate">March 2016</p>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="review1">
+                            <h3 class="name">DesertDust</h3>
+                            <h4 class="locale">Cambria, CA</h4>
+                            <h4 class="reviewTitle">Excellent Cookies</h4>
+                            <p class="reviewText">"Love the many flavors of their cookies and so worth the price. They freeze beautifully and maintain their flavor. Love root beer and lemon. It is a regular stop and so fortunate to live near here."</p>
+                            <div class="date-logo">
+                                <a href="https://www.tripadvisor.com/Attraction_Review-g32148-d3820445-Reviews-Red_Moose_Cookie_Company-Cambria_San_Luis_Obispo_County_California.html" target="_blank">
+                                    <img src="../images/logos/trip-advisor-logo.png" alt="TripAdvisor" class="reviewLogo">
+                                </a>
+                                <p class="reviewDate">April 2016</p>
+                            </div>
+                        </div>
+                        
+                        <div class="review1">
+                            <h3 class="name">Connie Kindig</h3>
+                            <h4 class="locale">Bakersfield, CA</h4>
+                            
+                            <p class="reviewText">"We finally found it after an hour of walking looking for it but it was very well worth it! Cookies are fantastic and nothing funky just good home taste!"</p>
+                            <div class="date-logo">
+                                <a href="https://www.google.com/maps/place/Red+Moose+Cookie+Company/@35.5634717,-121.0812812,17z/data=!4m5!3m4!1s0x0:0xda2b676f5f544db6!8m2!3d35.5634717!4d-121.0790931" target="_blank">
+                                    <img src="../images/logos/google-logo.png" alt="Google" class="reviewLogo">
+                                </a>
+                                <p class="reviewDate">August 2016</p>
+                            </div>
+                        </div>
+                        
+                        <div class="review1">
+                            <h3 class="name">m0untainchick</h3>
+                            <h4 class="locale">Shaver Lake, CA</h4>
+                            <h4 class="reviewTitle">DEVINE EXCELLENCE</h4>
+                            <p class="reviewText">"a friend found out that we were going to Cambria and said that we MUST try this cookie company out... so we found it! it was a little hard to find, but with their signs that they had out on the street... ( in the industrial part of town, we were able to find them! & boy, well worth it!! they are YUMMY!!! they have a nice selection to choose from! You won't regret stopping!
+                            nice man who helped us!"</p>
+                            <div class="date-logo">
+                                <a href="https://www.tripadvisor.com/Attraction_Review-g32148-d3820445-Reviews-Red_Moose_Cookie_Company-Cambria_San_Luis_Obispo_County_California.html" target="_blank">
+                                    <img src="../images/logos/trip-advisor-logo.png" alt="TripAdvisor" class="reviewLogo">
+                                </a>
+                                <p class="reviewDate">July 2015</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                    
+                    
+                </section>
+
+            </main>
+
+            <footer class="clear">
+                &#169; 2016 | Red Moose Cookie Co.
+                <br>
+                Design by <a href="mailto:inquiries@pickinio.com">Cody Brown</a>
+                
+                <!--Google analytics-->
+                <script src="/javascript/analytics.js"></script>
+            </footer>
+            
+        </div>
+        
+        
+        
+        <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="../javascript/lightbox.js"></script>
+        
+    </body>
+
+
+
+</html>

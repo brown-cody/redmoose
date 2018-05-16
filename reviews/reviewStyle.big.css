@@ -1,0 +1,124 @@
+/*  COLOR SCHEME
+ *  Red:    #8b0000
+ *  Cream:  #faebd7 rgb(250,235,215)
+ *  Gray:   #626363 rgb(98,99,99)*/
+
+.category {
+    margin-bottom: 0;
+}
+
+
+.headerTitle {
+    margin-left:1em;
+    margin-right: 1em;
+}
+
+.reviewLinks {
+    background:#faebd7;
+    margin:0 1em;
+    padding:.5em 0;
+    height: 55px;
+}
+
+.logoContain {
+    display:inline-block;
+    height:55px;
+    width:55px;
+    margin:0 1.8%;
+}
+
+.logoLink {
+    
+    width: 50px;
+}
+
+.logoLink:hover {
+    width:45px;
+    margin-bottom:2px;
+}
+
+.review1 {
+    color:#626363;
+    background:#faebd7;
+    margin:1em;
+    padding:.1em 2em;
+    overflow:auto;
+}
+
+.name {
+    margin: 1em 0 0 0;
+}
+
+.locale {
+    margin:0;
+    font-style: italic;
+}
+
+.reviewTitle {
+    margin:.5em;
+}
+
+.reviewImg {
+    width:100%;
+}
+
+.reviewText {
+    text-align: left;
+}
+
+.reviewLogo {
+    width:30px;
+    margin-left:5px;
+    float:right;
+}
+
+.reviewDate {
+    float:right;
+    margin:8px 0 1em 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*phone landscape*/
+@media only screen and (min-width:480px)   {
+  
+    .logoLink {
+        width: 64px;
+    }
+    
+    .logoLink:hover {
+        width:59px;
+        margin-bottom:3px;
+        margin-left:3px;
+    }
+    
+    .reviewLinks {
+        height:64px;
+    }
+    
+    .leftColumn, .rightColumn {
+        width:calc(50%);
+        float:left;
+    }
+    
+    .leftColumn .review1 {
+        margin-right:.5em;
+    }
+    
+    .rightColumn .review1 {
+        margin-left:.5em;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width:665px)   {
+
+}
+
+/*pc*/
+@media only screen and (min-width:965px)    {
+    
+}

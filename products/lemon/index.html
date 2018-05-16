@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>RMCCo. - Lemon</title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="author" content="Cody Brown">
+        <meta name="description" content="For the more adventurous, our lemon cookie is the perfect choice. The light, tart taste isn't too rich, so you can eat as many of these as you want. After one bite, you'll be upset that there aren't more than four in a package.">
+        <meta name="keywords" content="red moose, cookie, cookies, cambria, cayucos, morro bay, san simeon, san luis obispo">
+        
+        <!-- fix mobile sizing-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Import normalize CSS -->
+        <link type="text/css" rel="stylesheet" href="../../normalize.css">
+        
+        <!-- Import jQuery Accordion dependencies -->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        
+        <!-- Import main CSS -->
+        <link type="text/css" rel="stylesheet" href="../../style.css">
+        <link type="text/css" rel="stylesheet" href="../productsStyle.css">
+        
+        <!-- import fonts from Google fonts -->
+        <!-- CSS validator doesn't like the "|" operator in the address to add more than one font in one tag, google recommends this method. It works, just doesn't validate -->
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+        
+        <!-- Add favicon to Browser tab -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        
+        <!-- Add icons for mobile devices that add site to home screen -->
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/152x152.png" rel="apple-touch-icon" sizes="152x152">
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/180x180.png" rel="apple-touch-icon" sizes="180x180">
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/192x192.png" rel="icon" sizes="192x192">
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/128x128.png" rel="icon" sizes="128x128">
+        
+        <!--hamburger manu changes to X-->
+        <script type="text/javascript">
+            function hamburgerMenu() {
+                var image = document.getElementById("menuPic").src;
+                
+                if (image == "http://redmoose.pickinio.com/images/burger.png") {
+                    document.getElementById("menuPic").src = "http://redmoose.pickinio.com/images/x.png";
+                } else {
+                    document.getElementById("menuPic").src = "http://redmoose.pickinio.com/images/burger.png";
+                }
+            }
+            
+        </script>
+        
+        <!--Modernizr-->
+        <script src="../../javascript/modernizr-2.8.3.min.js"></script>
+        
+        
+    </head>
+    <body>
+        <div class="divContain">
+            
+            <header>
+                <div id="title">
+                    <a href="http://redmoose.pickinio.com">
+                        <img class="logo" src="../../images/redmooselogo.png" alt="Red Moose Logo">
+                    </a>
+                    <h1>Red Moose<span id="cookieCo"> Cookie Co.</span></h1>
+                
+                    <nav id="mainNav">
+                        
+                        <input id="box" type="checkbox" name="menu" onclick="hamburgerMenu()">
+                        
+                        
+                        
+                        <ul class="navList">
+                            <li class="navItem" ><a href="../../">Home</a></li>
+                            <li class="navItem selected" ><a href="../../products/">Products</a></li>
+                            <li class="navItem" ><a href="../../reviews/">Reviews</a></li>
+                            <li class="navItem" ><a href="../../directions/">Directions</a></li>
+                            <li class="navItem" ><a href="../../about/">About Us</a></li>
+                        </ul>
+                                                
+                        <label for="box">
+                            
+                            <img id="menuPic" class="burger" src="http://redmoose.pickinio.com/images/burger.png" alt="Menu">
+                            
+                        </label>
+                        
+                        
+                        
+                        
+                    </nav>
+                    
+                    
+                    
+                </div>
+                <div class="shade"></div>
+                <div class="featureSection">
+                    <div class="featurePosition">
+                        <!-- for feature video in place of image
+                            <video autoplay loop muted class="featuredItem">
+                            <source src="images/movie.mp4" type="video/mp4">
+                        </video>
+                        -->
+                        <img class="featuredItem" src="../../images/featured/featureLemon.jpg" alt="Lemon">
+                        
+                    </div>
+                    <h2 class="featuredH">Light & tart</h2>
+                </div>
+                
+            </header>
+
+            <main class="clear">
+                
+                
+                <section class="content">
+
+                    <h2 class="category">Lemon</h2>
+
+                    <div class="columns">
+                
+                        <div class="doubleColumn">
+                            <img class="indImage" src="../../images/product-ind/lemon.jpg" alt="Lemon">
+
+                        </div>
+                        
+                        <div class="tripleColumn">
+                            <div class="price">
+                                <h3>$4.99/pkg</h3>
+                            </div>
+                            <div class="addToCart">
+                                <form action="#" method="post">
+                                    <input type="number" value="1">
+                                    <input type="submit" value="Add to Cart">
+                                    <p>1 package includes 4 cookies<br>
+                                    Orders over $25 ship free</p>
+                                </form>
+                            </div>
+                            
+                            <div class="columnText" id="accordion">
+                                
+                                <h3>Description</h3>
+                                <div class="accText">
+                                    <p>For the more adventurous, our lemon cookie is the perfect choice. The light, tart taste isn't too rich, so you can eat as many of these as you want. After one bite, you'll be upset that there aren't more than four in a package.</p>
+                                </div>
+                                <h3>Nutrition Facts</h3>
+                                <div class="accText">
+                                         <table class="nutFacts">
+                                        <tr>
+                                            <td class="heavy tabCenter tabTitle" colspan="2">Nutrition Facts</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="thickBor">&nbsp;&nbsp;4 Servings</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="tabCenter thickBor">Amount Per Serving</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="heavy tabItem">Calories</td>
+                                            <td class="tabItem">152.8</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="heavy tabItem">Total Fat</td>
+                                            <td class="tabItem">7.6 g</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tabItem">&nbsp;&nbsp;Saturated Fat</td>
+                                            <td class="tabItem">4.7 g</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tabItem">&nbsp;&nbsp;Polyunsaturated Fat</td>
+                                            <td class="tabItem">0.4 g</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tabItem">&nbsp;&nbsp;Monounsaturated Fat</td>
+                                            <td class="tabItem">2.0 g</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="heavy  tabItem">Cholesterol</td>
+                                            <td class="tabItem">31.0 mg</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="heavy  tabItem">Sodium</td>
+                                            <td class="tabItem">179.4 mg</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="heavy  tabItem">Potassium</td>
+                                            <td class="tabItem">34.9 mg</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="heavy  tabItem">Total Carbohydrate</td>
+                                            <td class="tabItem">21.3 g</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tabItem">&nbsp;&nbsp;Dietary Fiber</td>
+                                            <td class="tabItem">0.3 g</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tabItem">&nbsp;&nbsp;Sugars</td>
+                                            <td class="tabItem">12.4 g</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="heavy">Protein</td>
+                                            <td class="thickBor">1.7 g</td>
+                                        </tr>
+                                    
+                                    </table>
+                                    
+                                    <p class="allergy"><span class="heavy">Known allergens:</span> gluten, eggs.</p>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        
+
+                        
+                    </div>
+
+                    
+                    
+                </section>
+
+            </main>
+
+            <footer class="clear">
+                &#169; 2016 | Red Moose Cookie Co.
+                <br>
+                Design by <a href="mailto:inquiries@pickinio.com">Cody Brown</a>
+                
+                <!--Google analytics-->
+                <script src="../../javascript/analytics.js"></script>
+            </footer>
+            
+        </div>
+        
+        <script>
+            $( "#accordion" ).accordion({
+                heightStyle: "content"
+            });
+        </script>
+        
+    </body>
+
+
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Red Moose Cookie Co. - Directions</title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="author" content="Cody Brown">
+        <meta name="description" content="Directions to the Red Moose Cookie Company in Cambria, California.">
+        <meta name="keywords" content="directions, map, red moose, cookie, cookies, cambria, cayucos, morro bay, san simeon, san luis obispo">
+        
+        <!-- fix mobile sizing-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Import normalize CSS -->
+        <link type="text/css" rel="stylesheet" href="../normalize.css">
+        
+        <!-- Import main CSS -->
+        <link type="text/css" rel="stylesheet" href="../style.css">
+        <link type="text/css" rel="stylesheet" href="directionsStyle.css">
+        
+        <!-- import fonts from Google fonts -->
+        <!-- CSS validator doesn't like the "|" operator in the address to add more than one font in one tag, google recommends this method. It works, just doesn't validate -->
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+        
+        <!-- Add favicon to Browser tab -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        
+        <!-- Add icons for mobile devices that add site to home screen -->
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/152x152.png" rel="apple-touch-icon" sizes="152x152">
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/180x180.png" rel="apple-touch-icon" sizes="180x180">
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/192x192.png" rel="icon" sizes="192x192">
+        <link href="http://redmoose.pickinio.com/images/mobile_icons/128x128.png" rel="icon" sizes="128x128">
+        
+        <!--hamburger manu changes to X-->
+        <script type="text/javascript">
+            function hamburgerMenu() {
+                var image = document.getElementById("menuPic").src;
+                
+                if (image == "http://redmoose.pickinio.com/images/burger.png") {
+                    document.getElementById("menuPic").src = "http://redmoose.pickinio.com/images/x.png";
+                } else {
+                    document.getElementById("menuPic").src = "http://redmoose.pickinio.com/images/burger.png";
+                }
+            }
+            
+        </script>
+        
+        <!--Modernizr-->
+        <script src="../javascript/modernizr-2.8.3.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="divContain">
+            
+            <header>
+                <div id="title">
+                    <a href="http://redmoose.pickinio.com">
+                        <img class="logo" src="../images/redmooselogo.png" alt="Red Moose Logo">
+                    </a>
+                    <h1>Red Moose<span id="cookieCo"> Cookie Co.</span></h1>
+                
+                    <nav id="mainNav">
+                        
+                        <input id="box" type="checkbox" name="menu" onclick="hamburgerMenu()">
+                        
+                        
+                        
+                        <ul class="navList">
+                            <li class="navItem" ><a href="../">Home</a></li>
+                            <li class="navItem" ><a href="../products/">Products</a></li>
+                            <li class="navItem" ><a href="../reviews/">Reviews</a></li>
+                            <li class="navItem selected" ><a href="../directions/">Directions</a></li>
+                            <li class="navItem" ><a href="../about/">About Us</a></li>
+                        </ul>
+                                                
+                        <label for="box">
+                            
+                            <img id="menuPic" class="burger" src="http://redmoose.pickinio.com/images/burger.png" alt="Menu">
+                            
+                        </label>
+                        
+                        
+                        
+                        
+                    </nav>
+                    
+                    
+                    
+                </div>
+                <div class="shade"></div>
+                <div class="featureSection">
+                    <div class="featurePosition">
+                        
+                        
+                        <img class="featuredItem" src="../images/featured/featureDirections.jpg" alt="You Found Us!">
+                        
+                    </div>
+                    <h2 class="featuredH">Stop in for some treats!</h2>
+                </div>
+                
+            </header>
+
+            <main class="clear">
+                
+                
+                <section class="content">
+
+                    <h2 class="category">Directions</h2>
+
+
+                    
+                
+                    <div class="columns">
+                
+                        <div class="tripleColumn">
+
+                            <div class="columnText">
+                                
+                                <h3>Address:</h3>
+                                <p>2531 Village Lane Suite C<br>Cambria CA 93428<br>(805) 900-5140</p>
+
+                                <h3>Hours:</h3>
+                                <p>M-Sa 10AM-5PM, Su 10AM-3PM</p>
+                                
+                                <p>Take Burton Drive from Main Steet. Follow Burton Drive to the left after you cross Santa Rosa Creek, then turn left on Village Lane. Turn left into the second last driveway and we are located on the right.</p>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="doubleColumn">
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7719.565782815013!2d-121.09133834760004!3d35.56166382683375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda2b676f5f544db6!2sRed+Moose+Cookie+Company!5e0!3m2!1sen!2sus!4v1478812078612" allowfullscreen></iframe>
+
+                        </div>
+
+                        
+                    </div>
+                    
+                    
+                </section>
+
+            </main>
+
+            <footer class="clear">
+                &#169; 2016 | Red Moose Cookie Co.
+                <br>
+                Design by <a href="mailto:inquiries@pickinio.com">Cody Brown</a>
+                
+                <!--Google analytics-->
+                <script src="/javascript/analytics.js"></script>
+            </footer>
+            
+        </div>
+    </body>
+
+
+
+</html>
